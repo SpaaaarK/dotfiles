@@ -5,8 +5,8 @@ pushd $DOTFILES
 for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
 do
     echo "stow $folder"
-    stow -D $folder -t $HOME/.testing/
-    stow -S $folder -t $HOME/.testing/
+    stow -D $folder -t $HOME/
+    stow -S $folder -t $HOME/
 done
 
 
