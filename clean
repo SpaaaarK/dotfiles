@@ -1,0 +1,16 @@
+#!/usr/bin/env zsh
+# I am using zsh instead of bash.  I was having some troubles using bash with
+# arrays.  Didn't want to investigate, so I just did zsh
+if [[ -z $STOW_FOLDERS ]]; then
+    STOW_FOLDERS="hypr,nvim,zsh,waifu"
+fi
+
+if [[ -z $DOTFILES ]]; then
+    DOTFILES=$HOME/.dotfiles
+fi
+
+for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
+do
+    echo "Removing $folder"
+    stow -D $folder -t $HOME/.testing/
+done
