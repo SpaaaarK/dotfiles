@@ -6,11 +6,11 @@ if [[ -z $STOW_FOLDERS ]]; then
 fi
 
 if [[ -z $DOTFILES ]]; then
-    DOTFILES=$HOME/.dotfiles
+    DOTFILES=$HOME/dotfiles
 fi
 
 for folder in $(echo $STOW_FOLDERS | sed "s/,/ /g")
 do
     echo "Removing $folder"
-    stow -D $folder -t $HOME/.testing/
+    stow -D $folder -t $HOME/
 done
