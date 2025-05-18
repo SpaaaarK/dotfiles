@@ -201,3 +201,5 @@ fi
 
 # TREE_COLORS is used by GNU tree. It looks awful with underlined text, so we turn it off.
 export TREE_COLORS=${LS_COLORS//04;}
+
+export TERM=xterm
