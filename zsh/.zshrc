@@ -16,7 +16,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-##ZSH_THEME="mortalscumbag"
+# ZSH_THEME="mortalscumbag"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
 # Set list of themes to pick from when loading at random
@@ -193,7 +193,7 @@ export LSCOLORS='ExGxDxDxCxDxDxFxFxexEx'
 
 if (( terminfo[colors] >= 256 )); then
   LS_COLORS+=':no=38;5;248'
-  ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=248'        # the default is hard to see
+  ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=240'        # the default is hard to see
 else
   LS_COLORS+=':no=1;30'
   ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=black,bold' # the default is outside of 8-color range
