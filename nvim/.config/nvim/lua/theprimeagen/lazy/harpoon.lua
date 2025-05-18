@@ -42,10 +42,10 @@ return {
             vim.keymap.set("n", "<A-2>", function() harpoon:list():select(2) end, { desc = "Harpoon: Go to file 2" })
             vim.keymap.set("n", "<A-3>", function() harpoon:list():select(3) end, { desc = "Harpoon: Go to file 3" })
             vim.keymap.set("n", "<A-4>", function() harpoon:list():select(4) end, { desc = "Harpoon: Go to file 4" })
-            vim.keymap.set("n", "<A-5>", function() harpoon:list():select(4) end, { desc = "Harpoon: Go to file 5" })
-            vim.keymap.set("n", "<A-6>", function() harpoon:list():select(4) end, { desc = "Harpoon: Go to file 6" })
-            vim.keymap.set("n", "<A-7>", function() harpoon:list():select(4) end, { desc = "Harpoon: Go to file 7" })
-            vim.keymap.set("n", "<A-8>", function() harpoon:list():select(4) end, { desc = "Harpoon: Go to file 8" })
+            vim.keymap.set("n", "<A-5>", function() harpoon:list():select(5) end, { desc = "Harpoon: Go to file 5" })
+            vim.keymap.set("n", "<A-6>", function() harpoon:list():select(6) end, { desc = "Harpoon: Go to file 6" })
+            vim.keymap.set("n", "<A-7>", function() harpoon:list():select(7) end, { desc = "Harpoon: Go to file 7" })
+            vim.keymap.set("n", "<A-8>", function() harpoon:list():select(8) end, { desc = "Harpoon: Go to file 8" })
 
         end,
     },
