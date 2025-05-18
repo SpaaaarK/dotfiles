@@ -1,7 +1,7 @@
 require("theprimeagen.set")
 require("theprimeagen.remap")
 require("theprimeagen.lazy_init")
-require("theprimeagen.custom_commands")
+require("theprimeagen.taskrunner")
 
 -- DO.not
 -- DO NOT INCLUDE THIS
